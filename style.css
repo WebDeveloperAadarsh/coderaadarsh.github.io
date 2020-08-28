@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', cursive;
+  }
+  html{
+      scroll-behavior: smooth;
+      overflow-x: hidden;
+  }
+  body{
+    overflow-x: hidden;
+  }
+  a{
+    text-decoration: none;
+    color: #fff;
+  }
+  a:hover{
+    text-decoration: none;
+    color: #fff;
+  }
+  ul{
+    list-style: none;
+  }
+  /* loader css starts here */
+  #loader{
+    height: 100vh;
+    width: 100vw;
+    background: black;
+  display: flex:;
+  justify-content: center;
+  align-items: center;
+    z-index: 999;
+  }
+  #loader img{
+    height: 300px;
+    width: 400px;
+  }
+
+  /* loader css ends here */
+
+  /* nav css starts here */
+  .logo{
+  font-family: 'Poppins', cursive;
+  }
+  .sub_navbar{
+  float: right:
+  }
+  .navigation{
+  background: #3C92FD;
+  z-index: 2;
+  }
+
+  /* nav css ends here  */
+
+  /* home page css starts here */
+  .home_main_page{
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('computer-2.jpg');
+  background-position: center;
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0%, 100% 88%, 0% 100%);
+
+  }
+   .content-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
+  .content-img img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  }
+  .home_page{
+  display: flex:;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: #fff;
+  margin-top: 10%;
+  text-align: center;
+  }
+    /* home page css ends here */
+
+    /* about page css starts here */
+  .about_me{
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background: linear-gradient(155deg,#3C92FD 55%, #fff 40%); 
+  }
+  .lang_skill{
+  background: #fff;
+  position: relative;
+  height: 53vh;
+  padding-bottom: 10px;
+  margin-top: 45px;
+  }
+  .progress{
+  margin-top: 45px;
+  width: 545px;
+  }
+  .progress-bar-animated{
+  font-size: 15px;
+  width: 10px;
+  }
+  .info{
+  background: #fff;
+  position: relative;
+  height: 53vh;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 5px;
+  margin-top: 45px;
+  }
+  .icons_div_1{
+  margin-top: 40px;
+  position: relative;
+  display: inline-flex;
+  }
+  .icons{
+  font-size: 50px;
+  color: #2AF6AC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 8px;
+  }
+  #my_img{
+  background-position: center;
+  }
+  .numbers_div{
+  display: inline-flex;
+  justify-content: center;
+  width: 100vw;
+  }
+  .numbers_div h1{
+  margin: 40px;
+  line-height: 0px;
+  }
+  .first_number_div{
+  position: relative;
+  }
+  .first_number_div p{
+  line-height: 0px;
+  text-align: center;
+  }
+  .h1_div{
+  width: 100vw;
+  position: relative;
+  }
+  .digits p{
+  line-height: 0;
+  }
+   .digits h1{
+  line-height: 1;
+  }
+      /* about page css ends here */
+
+/* contact page css starts here */
+.contact_me{
+  margin-top: 50px; 
+  padding: 10px 20px!important;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+#txtarea{
+  height: 150px !important;
+}
+.form-control{
+width: 95%;              
+}
+/* contact page css ends  here */
+
+/* reviews page css  starts*/
+#my_pricing{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(155deg,#3C92FD 55%, #fff 40%); 
+}
+#my_pricing h1{
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #fff;
+
+}
+.card_1{
+margin-top: 25px;
+}
+.card_2{
+ transform: translateY(-70px);
+}
+.card{
+ height: 370px;
+ box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.8);
+ margin-top: 85px; 
+ transition: 0.3s;
+ cursor: pointer; 
+ }
+ .card:hover .card-header, .card:hover .money{
+ color: #2AF6AC;
+ }
+ .card:hover .card-footer a{
+  background: #2AF6AC;
+  box-shadow: 2px 2px 5px 0px #2AF6AC;
+  }
+ .card:hover{
+transform: translateY(-20px);
+}
+.card li{
+ line-height: 35px;
+  }
+.card-header{
+  font-weight: bold;
+  font-size: 18px;
+  letter-spacing: 2px;
+  }
+.money{
+  font-size: 30px;
+  font-weight: 600;
+  }
+.card-footer{
+  cursor: pointer;
+  }
+.card-footer a{
+  color: #000;
+  font-weight: 400;
+  border: 2px solid #2AF6AC;
+  padding:5px 10px;
+  border-radius: 20px;
+  }
+  /* reviews page css ends*/
+
+
+
+
+
+
+/* review page css startrs here */
+.card-img-top{
+border-radius: 50%;
+height: 100px;
+width: 100px;
+text-align: center;              
+}
+.review .row{
+display: flex;
+justify-content: space-around;           
+}
+.review{
+height: 90vh;
+width: 100vw;
+background: linear-gradient(25deg,#2AF6AC 55%, #fff 40%);   
+margin-top: 50px;
+}
+.img_div{
+display: flex;
+justify-content: center;
+align-items: center;         
+}
+.carousel-inner{
+height: 90vh;                
+}
+.review .card{
+background-image: url('bg_1.jpg');
+background-position: center;
+margin-top: 50px !important;              
+} 
+.review_card{
+margin-top: 150px;             
+}
+.fa-user-circle:before {
+    content: "\f2bd";
+    font-size: 100px;
+}
+/* review page css ends here */
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 400px) {
+  .progress{
+  margin-top: 45px;
+  width: 300px;
+  }
+  .about_me{
+  height: 150vh;
+  width: 100vw;
+  position: relative;
+  padding-right: 26px !important;
+  padding-left: 26px !important;
+  background: linear-gradient(155deg,#3C92FD 55%, #fff 40%); 
+  }
+    body{
+    overflow-x: hidden;
+  }
+    #my_pricing{
+height: 200vh;
+  background: linear-gradient(155deg,#3C92FD 55%, #fff 40%);
+  }
+  .icons{
+  font-size: 40px;
+  color: #2AF6AC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 8px;
+  }
+  .info p{
+  font-size: 14px;
+    }
+
+}
+
+@media only screen and (min-width: 400px) {
+  .progress{
+  margin-top: 45px;
+  width: 350px;
+  }
+  .about_me{
+  height: 150vh;
+  width: 100vw;
+  position: relative;
+  padding-right: 26px !important;
+  padding-left: 26px !important;
+  background: linear-gradient(155deg,#3C92FD 55%, #fff 40%); 
+  }
+    body{
+    overflow-x: hidden;
+  }
+      #my_pricing{
+height: 200vh;
+  background: linear-gradient(155deg,#3C92FD 55%, #fff 40%);
+  }
+  .review{
+    height: 125vh
+  }
+    
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .about_me{
+  height: 150vh;
+  width: 100vw;
+  position: relative;
+  padding-right: 26px !important;
+  padding-left: 26px !important;
+  background: linear-gradient(155deg,#3C92FD 55%, #fff 40%); 
+  }
+    body{
+    overflow-x: hidden;
+  }
+  #my_pricing{
+height: 200vh;
+  background: linear-gradient(125deg,#3C92FD 55%, #fff 40%);
+  }
+    .review{
+    height: 125vh
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .progress{
+  margin-top: 45px;
+  width: 450px;
+  }
+    .about_me{
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  padding-right: 26px !important;
+  padding-left: 26px !important;
+  background: linear-gradient(155deg,#3C92FD 55%, #fff 40%); 
+  }
+    body{
+    overflow-x: hidden;
+  }
+    #my_pricing{
+height: 100vh;
+  background: linear-gradient(155deg,#3C92FD 55%, #fff 40%);
+  }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+  .about_me{
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  padding-right: 26px !important;
+  padding-left: 26px !important;
+  background: linear-gradient(156deg,#3C92FD 55%, #fff 40%); 
+  }
+    body{
+    overflow-x: hidden;
+  }
+    #my_pricing{
+height: 100vh;
+  }
+}
+
+
+
+
+
+
+
