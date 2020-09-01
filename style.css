@@ -28,16 +28,17 @@
   #loader{
     height: 100vh;
     width: 100vw;
-    background: black;
-  display: flex:;
-  justify-content: center;
-  align-items: center;
-    z-index: 999;
+    background: #000;
+    display: grid;
+    place-items: center;
   }
   #loader img{
-    height: 300px;
-    width: 400px;
+    height: 400px;
+    width: 500px;
   }
+  .sub_loader{
+
+    }
 
   /* loader css ends here */
 
@@ -183,7 +184,7 @@ width: 95%;
   position: relative;
   height: 100vh;
   width: 100vw;
-  background: linear-gradient(155deg,#3C92FD 55%, #fff 40%); 
+  background: tan; 
 }
 #my_pricing h1{
   text-align: center;
@@ -237,12 +238,6 @@ transform: translateY(-20px);
   padding:5px 10px;
   border-radius: 20px;
   }
-  /* reviews page css ends*/
-
-
-
-
-
 
 /* review page css startrs here */
 .card-img-top{
@@ -251,16 +246,7 @@ height: 100px;
 width: 100px;
 text-align: center;              
 }
-.review .row{
-display: flex;
-justify-content: space-around;           
-}
-.review{
-height: 90vh;
-width: 100vw;
-background: linear-gradient(25deg,#2AF6AC 55%, #fff 40%);   
-margin-top: 50px;
-}
+
 .img_div{
 display: flex;
 justify-content: center;
@@ -304,7 +290,8 @@ margin-top: 150px;
   }
     #my_pricing{
 height: 200vh;
-  background: linear-gradient(155deg,#3C92FD 55%, #fff 40%);
+  background: linear-gradient(160deg,#3C92FD 55%, #fff 40%);
+  margin-bottom: 20px;
   }
   .icons{
   font-size: 40px;
@@ -345,7 +332,7 @@ height: 200vh;
   }
     
 }
-/* Small devices (portrait tablets and large phones, 600px and up) */
+/*Small devices (portrait tablets and large phones, 600px and up)*/
 @media only screen and (min-width: 600px) {
     .about_me{
   height: 150vh;
@@ -411,8 +398,17 @@ height: 100vh;
 }
 
 
+.page-footer{
+  background: #3C92FD;   
+  color: #fff;        
+  }
 
-
-
-
+.fa-instagram{
+    font-size: 30px;
+}
+.fa-facebook{
+             
+font-size: 30px;
+margin-right: 15px;
+}
 
